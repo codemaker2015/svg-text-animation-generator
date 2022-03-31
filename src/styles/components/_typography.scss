@@ -1,0 +1,51 @@
+.title {
+  color: rgba(255,255,255,0.98);
+  text-align: center;
+}
+
+.extras {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+
+.fonts-info {
+  color: transparentize($color: #ffffff, $amount: 0.4);
+
+  .fonts-link {
+    color: transparentize($color: red, $amount: 0.4)
+  }
+}
+
+.code-heading {
+  color: rgba(255, 255, 255, 0.98);
+  display: inline;
+  margin-right: 10px;
+}
+
+.download-btn {
+  background: transparentize($color: yellow, $amount: 0.5);
+  color: transparentize($color: black, $amount: 0.3);
+  padding: 3px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    display: inline;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+.my-1{
+margin: .5rem 0rem;
+}
